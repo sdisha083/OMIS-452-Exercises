@@ -22,3 +22,8 @@ FROM PROJECT;
 /* *** SQL-Query-CH03-06 *** */
 SELECT DISTINCT Department
 FROM PROJECT;
+
+/* *** SQL-Query-CH03-07 *** */
+SELECT *
+FROM PROJECT
+WHERE Department = 'Finance';
