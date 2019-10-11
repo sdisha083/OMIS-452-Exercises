@@ -228,3 +228,10 @@ FROM EMPLOYEE AS E JOIN ASSIGNMENT AS A
 ON E.EmployeeNumber = A.EmployeeNumber
 GROUP BY LastName, FirstName
 ORDER BY LastName, FirstName;
+
+ /* *** SQL-Query-CH03-50 *** */
+SELECT FirstName, LastName, ProjectID, HoursWorked
+FROM EMPLOYEE AS E JOIN ASSIGNMENT AS A
+ON E.EmployeeNumber = A.EmployeeNumber
+WHERE HoursWorked > 50
+ORDER BY LastName, FirstName, ProjectID;
