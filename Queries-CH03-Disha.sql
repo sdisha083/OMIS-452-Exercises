@@ -164,3 +164,11 @@ WHERE EmployeeNumber IN (6, 10, 11, 16, 17);
 SELECT DISTINCT EmployeeNumber
 FROM ASSIGNMENT
 WHERE HoursWorked > 50;
+
+/* *** SQL-Query-CH03-41 *** */
+SELECT FirstName, LastName
+FROM EMPLOYEE
+WHERE EmployeeNumber IN
+(SELECT DISTINCT EmployeeNumber
+FROM ASSIGNMENT
+WHERE HoursWorked > 50);    
