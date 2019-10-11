@@ -123,3 +123,7 @@ WHERE OfficePhone IS NULL;
 SELECT FirstName, LastName, Department, OfficePhone
 FROM EMPLOYEE
 WHERE OfficePhone IS NOT NULL;
+
+/* *** SQL-Query-CH03-28 *** */
+SELECT COUNT(*)
+FROM PROJECT;
