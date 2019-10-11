@@ -127,3 +127,7 @@ WHERE OfficePhone IS NOT NULL;
 /* *** SQL-Query-CH03-28 *** */
 SELECT COUNT(*)
 FROM PROJECT;
+
+/* *** SQL-Query-CH03-29 *** */
+SELECT COUNT(*) AS NumberOfProjects
+FROM PROJECT;
