@@ -6,3 +6,7 @@ FROM PROJECT;
 /* *** SQL-Query-CH03-02 *** */
 SELECT *
 FROM PROJECT;
+
+/* *** SQL-Query-CH03-03 *** */
+SELECT ProjectName, Department, MaxHours
+FROM PROJECT;
