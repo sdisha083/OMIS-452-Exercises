@@ -198,3 +198,7 @@ AND ProjectID IN
 (SELECT ProjectID
 FROM PROJECT
 WHERE Department = 'Accounting'));
+
+ /* *** SQL-Query-CH03-45 *** */
+SELECT FirstName, LastName, ProjectID, HoursWorked
+FROM EMPLOYEE, ASSIGNMENT;
