@@ -147,3 +147,10 @@ MIN(MaxHours) AS MinimumMaxHours,
 MAX(MaxHours) AS MaximumMaxHours
 FROM PROJECT
 WHERE ProjectID <= 1200;
+
+/* *** SQL-Query-CH03-38 *** */
+SELECT Department, Count(*) AS NumberOfEmployees
+FROM EMPLOYEE
+WHERE EmployeeNumber <= 10
+GROUP BY Department
+HAVING COUNT(*) > 1;
