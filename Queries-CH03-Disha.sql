@@ -82,3 +82,9 @@ SELECT FirstName, LastName, Department, OfficePhone
 FROM EMPLOYEE
 WHERE Department NOT IN ('Administration', 'Finance',
 'Accounting');
+
+/* *** SQL-Query-CH03-19 *** */
+SELECT FirstName, LastName, Department, OfficePhone
+FROM EMPLOYEE
+WHERE EmployeeNumber >= 2
+AND EmployeeNumber <= 5;
