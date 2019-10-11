@@ -139,3 +139,11 @@ FROM PROJECT;
 /* *** SQL-Query-CH03-31 *** */
 SELECT COUNT(DISTINCT Department) AS NumberOfDepartments
 FROM PROJECT;
+
+/* *** SQL-Query-CH03-32 *** */
+SELECT SUM(MaxHours) AS TotalMaxHours,
+AVG(MaxHours) AS AverageMaxHours,
+MIN(MaxHours) AS MinimumMaxHours,
+MAX(MaxHours) AS MaximumMaxHours
+FROM PROJECT
+WHERE ProjectID <= 1200;
