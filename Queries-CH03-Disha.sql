@@ -27,3 +27,8 @@ FROM PROJECT;
 SELECT *
 FROM PROJECT
 WHERE Department = 'Finance';
+
+/* *** SQL-Query-CH03-09 *** */
+SELECT *
+FROM PROJECT
+WHERE MaxHours > 135;
