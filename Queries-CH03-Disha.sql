@@ -14,3 +14,7 @@ FROM PROJECT;
 /* *** SQL-Query-CH03-04 *** */
 SELECT ProjectName, MaxHours, Department
 FROM PROJECT;
+
+/* *** SQL-Query-CH03-05 *** */
+SELECT Department
+FROM PROJECT;
