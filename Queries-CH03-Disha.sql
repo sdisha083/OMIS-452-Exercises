@@ -58,3 +58,9 @@ SELECT FirstName, LastName, Department, OfficePhone
 FROM EMPLOYEE
 WHERE Department = 'Accounting'
 AND OfficePhone = '360-285-8430';
+
+/* *** SQL-Query-CH03-15 *** */
+SELECT FirstName, LastName, Department, OfficePhone
+FROM EMPLOYEE
+WHERE Department = 'Accounting'
+OR OfficePhone = '360-285-8410';
