@@ -108,3 +108,8 @@ WHERE OfficePhone LIKE '360-287-88 ';
 SELECT *
 FROM EMPLOYEE
 WHERE Department LIKE '%ing';
+
+/* *** SQL-Query-CH03-25 *** */
+SELECT *
+FROM EMPLOYEE
+WHERE Department NOT LIKE '%ing';
