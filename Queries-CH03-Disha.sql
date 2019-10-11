@@ -154,3 +154,8 @@ FROM EMPLOYEE
 WHERE EmployeeNumber <= 10
 GROUP BY Department
 HAVING COUNT(*) > 1;
+
+/* *** SQL-Query-CH03-39 *** */
+SELECT FirstName, LastName
+FROM EMPLOYEE
+WHERE EmployeeNumber IN (6, 10, 11, 16, 17);
