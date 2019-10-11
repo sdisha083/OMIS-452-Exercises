@@ -18,3 +18,7 @@ FROM PROJECT;
 /* *** SQL-Query-CH03-05 *** */
 SELECT Department
 FROM PROJECT;
+
+/* *** SQL-Query-CH03-06 *** */
+SELECT DISTINCT Department
+FROM PROJECT;
