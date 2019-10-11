@@ -113,3 +113,8 @@ WHERE Department LIKE '%ing';
 SELECT *
 FROM EMPLOYEE
 WHERE Department NOT LIKE '%ing';
+
+/* *** SQL-Query-CH03-26 *** */
+SELECT FirstName, LastName, Department, OfficePhone
+FROM EMPLOYEE
+WHERE OfficePhone IS NULL;
